@@ -1,0 +1,87 @@
+*{
+  background-color: #90C8AC;
+  background-image:url('../../../src/Images/fondo-768x514.png') ;
+
+}
+  
+  .logoC {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 19vh;
+    margin-left: 20px;
+  }
+  
+  .imgLogo {
+    margin-right: 84px;
+    height: 450px;
+  }
+  
+  .sectionbuttons {
+    width: 758px;
+    height: 123px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    }
+  
+   
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 80vw;
+    height: 20vh;
+    padding-top: 10vh;
+   
+    
+  }
+  
+  .buttonOrder,
+  .buttonKitchen {
+    width: 190px;
+    height: 70px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 10px;
+    font-size: 36px;
+    color: #444544;
+}
+  
+@media screen and (min-width: 1024px) {
+  .logoC {
+    margin-top: 13vh;
+  }
+
+  .imgLogo {
+    width: 35vw;
+    height: auto;
+    max-width: 100%;
+  }
+
+  .buttons {
+    width: 60vw;
+  }
+
+  .buttonOrder,
+  .buttonKitchen {
+    width: 160px;
+    height: 60px;
+    font-size: 30px;
+    line-height: 55px;
+  }
+
+  .sectionbuttons {
+    width: 758px;
+    height: 123px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left:430px;
+    margin-top: 30px;
+    }
+}
