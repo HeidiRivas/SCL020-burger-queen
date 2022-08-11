@@ -1,7 +1,9 @@
 *{
-  background-color: #90C8AC;
-  background-image:url('../../../src/Images/fondo-768x514.png') ;
-
+  /*background-color: #90C8AC;
+  background-image:url('../../../src/Images/fondo-768x514.png') ;*/
+  background-image: url('../../../src/Images/fondo-768x514.png') ;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 }
   
   .logoC {
@@ -49,6 +51,7 @@
     border-radius: 10px;
     font-size: 36px;
     color: #444544;
+    background: #90C8AC;;
 }
   
 @media screen and (min-width: 1024px) {
@@ -81,7 +84,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-left:430px;
+    margin-left: 255px;
     margin-top: 30px;
     }
 }

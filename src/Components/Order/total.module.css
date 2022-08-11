@@ -1,0 +1,26 @@
+.total{
+    width: auto;
+    height: auto;
+
+}
+
+
+
+@media screen and (min-width: 1024px) {
+    .boxproductos {
+        width: 520px;
+        display: flex;
+        flex-direction: column;
+        overflow-y: auto;
+        height: 160px;
+        margin-bottom: -28px;
+    }
+
+    .total{
+    width: auto;
+    height: auto;
+    padding-top: 20px;
+    
+    }
+
+}

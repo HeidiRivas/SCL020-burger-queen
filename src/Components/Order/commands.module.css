@@ -1,19 +1,140 @@
-.Commannds{
-    background-color: rgb(226, 43, 43);
-    width:350px;
-    height: 380px;
-    padding: 20px;
-    margin-right: 65px;
+.Commannds {
+  width: 385px;
+  height: 390px;
+  padding: 20px;
+  margin-bottom: 7px;
+  margin-right: 30px;
+  border: solid black;
+  border-radius: 20px;
 }
 
+.boxorden {
+  margin: 3vw;
+  width: 25vw;
+  height: 2vw;
+  align-items: center;
+}
+
+.boxclient,
+.final {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 4vw;
+  margin: 2vh;
+}
+
+p {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-size: 19px;
+  line-height: 27px;
+  font-weight: 600;
+  text-align: center;
+  color: #444544;
+}
+
+.inputmenu {
+  width: 12vw;
+  height: auto;
+}
+
+.boxproductos {
+  display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    height: 25vw;
+    width: 361px;
+}
+
+.productos {
+  width: 358px;
+    height: 50px;
+    display: flex;
+    background: #f0f2ef;
+    margin-bottom: 1vw;
+    margin-top: 1vw;
+    padding-left: 0vw;
+    padding-right: 3vw;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.nameitem {
+  margin: auto;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 20vw;
+}
+
+.symbols {
+  width: 24px;
+  height: 25px;
+  box-sizing: border-box;
+  background: #90C8AC;
+  border: 1px solid #000000;
+  border-radius: 100%;
+}
+
+.btnSendCommand{
+  width: 90px;
+  background: #90C8AC;
+}
+/* RESPONSIVE PANTALLA GRANDE */
+
 @media screen and (min-width: 1024px) {
-    .Commannds{
-        background-color: rgb(12, 215, 22);
-        width: 600px;
-        height: 500px;
-        margin: 20px;
-        padding: 20px;
-        margin-top: 100px;
-        padding: 30px;
-    }
-    }
+  .Commannds {
+    background-color: rgb(226, 43, 43);
+    width: 560px;
+    height: 388px;
+    padding: 20px;
+    margin-right: 65px;
+    border: solid black;
+    border-radius: 20px;
+    margin-top: 10px;
+
+  }
+
+  .boxorden {
+    margin: 3vw;
+    margin-bottom: 3px;
+    width: 22vw;
+    height: 3vw;
+    align-items: center;
+    border-radius: 8px;
+  }
+
+  .productos {
+    width: 490px;
+    height: 50px;
+    display: flex;
+    background: #f0f2ef;
+    margin-bottom: 1vw;
+    margin-top: 1vw;
+    padding-left: 0vw;
+    padding-right: 3vw;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .boxproductos {
+    width: 520px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    height: 160px;
+    margin-bottom: 16px
+  }
+
+  .buttons {
+    width: 15vw;
+  }
+}
+

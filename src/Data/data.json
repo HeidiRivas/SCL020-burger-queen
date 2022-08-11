@@ -1,82 +1,74 @@
 {
-    "breakfast": [
+    "carta": [
       {
         "id": 1,
         "name": "Café cortado",
-        "price": 2000
+        "price": 2000,
+        "type": "bebestible"
       },
       {
         "id": 2,
         "name": "Te",
-        "price": 1500
+        "price": 1500,
+        "type": "bebestible"
       },
       {
         "id": 3,
         "name": "Mate",
-        "price": 3000
+        "price": 3000,
+        "type": "bebestible"
 
       },
       {
         "id": 4,
-        "name": "Submarino",
-        "price": 3000
+        "name": "Capuccino",
+        "price": 3000,
+        "type": "bebestible"
 
       },
-      {
-        "id": 41,
-        "name": "porción de pastaflora",
-        "price": 1000
-
-      },
-      {
-        "id": 42,
-        "name": "tostado JyQ",
-        "price": 1000
-
-      },
-      {
-        "id": 43,
-        "name": "raspaditas",
-        "price": 3000
-
-      },
-      {
-        "id": 44,
-        "name": "medialuna",
-        "price": 1000
-
-      },
-      {
-        "id": 46,
-        "name": "jugo de naranja",
-        "price": 1000
-
-      }
-    ],
-
-    "lunch": [
+      
       {
         "id": 5,
-        "name": "parrillada",
-        "price": 15000
+        "name": "Expresso",
+        "price": 1000,
+        "type": "bebestible"
 
       },
       {
         "id": 6,
-        "name": "milanesas de carne con puré",
-        "price": 9000
+        "name": "Agua",
+        "price": 1000,
+        "type": "bebestible"
 
       },
+
+   
       {
         "id": 7,
-        "name": "locro",
-        "price": 9000
+        "name": "Leche asada",
+        "price": 1500,
+        "type": "postre"
 
       },
       {
         "id": 8,
-        "name": "pastel de papa",
-        "price": 7000
+        "name": "Torta de limón",
+        "price": 9000,
+        "type": "postre"
+
+      },
+      {
+        "id": 9,
+        "name": "Tarta de fresa",
+        "price": 9000,
+        "type": "postre"
+
+      },
+      {
+        "id": 10,
+        "name": "Pie de limon",
+        "price": 7000,
+        "type": "postre"
 
       }
     ]

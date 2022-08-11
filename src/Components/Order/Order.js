@@ -15,7 +15,7 @@ const Order = () =>{
             <Menu />
           </div>
           <div>
-            <p className={styles.titles}>Orden</p>
+            <p className={styles.titlesO}>Orden</p>
             <Commannds />
           </div>
           </div>
